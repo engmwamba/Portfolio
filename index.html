@@ -1,124 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mwamba A, O</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101918">
+  <meta name="description" content="Andrew Mwamba Obare — agricultural engineering, teaching, and applied AI.">
+  <title>Andrew Mwamba Obare — Engineer & Researcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
 <body>
-  <!-- Header Section -->
-  <header>
-    <div class="container">
-      <h1>ANDREW MWAMBA OBARE</h1>
-      <p>Advancing Expertise in AI and Data Science</p>
-      <nav>
-        <ul class="tabs">
-          <li data-tab="about">About</li>
-          <li data-tab="experience">Experience</li>
-          <li data-tab="skills">Skills</li>
-          <li data-tab="projects">Projects</li>
-          <li data-tab="contact">Contact</li>
-        </ul>
-      </nav>
-    </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="wordmark" href="#home" aria-label="Andrew Mwamba Obare home">AM<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#work">Work</a><a href="#path">Path</a><a href="#about">About</a>
+    </nav>
+    <a class="contact-link" href="#contact">Get in touch <span>↗</span></a>
   </header>
-
-  <!-- Tab Content Sections -->
-  <main>
-    <!-- About Section -->
-    <section id="about" class="tab-content active">
-      <h2>About Me</h2>
-      <p>
-        Focused on advancing expertise in AI and data science to lead transformative projects. 
-        Aims to bridge the gap between engineering and data science by harnessing AI to optimize and automate complex systems. 
-        Seeks to leverage project coordination and management skills to drive large-scale initiatives across diverse industries.
-      </p>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="tab-content">
-      <h2>Experience</h2>
-      <div class="experience">
-        <h3>Part-time Lecturer</h3>
-        <p><strong>University of Eldoret</strong> | Feb 2024 – Present</p>
-        <ul>
-          <li>Delivered lectures and supervised student projects.</li>
-          <li>Mentored students on practical sessions in agricultural engineering.</li>
-        </ul>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> AGRICULTURAL ENGINEERING · APPLIED AI</p>
+        <h1>Building better<br><em>systems</em> for a<br>changing world.</h1>
+        <p class="intro">I’m Andrew Mwamba Obare, an engineer and lecturer exploring how practical engineering and data science can make complex systems work better.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#work">Explore selected work <span>↓</span></a><a class="text-link" href="#about">A little about me <span>↗</span></a></div>
       </div>
-      <div class="experience">
-        <h3>Clerk of Works</h3>
-        <p><strong>Kenya Ministry of Agriculture</strong> | Feb 2022 – Jan 2025</p>
-        <ul>
-          <li>Oversaw the execution of agricultural engineering projects.</li>
-          <li>Ensured compliance with technical specifications and standards.</li>
-        </ul>
+      <div class="hero-art" aria-label="Abstract engineering field diagram">
+        <div class="art-label">FIELD NOTES <span>01 / 03</span></div>
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="axis axis-x"></div><div class="axis axis-y"></div>
+        <div class="node node-center"><span>AE</span></div><div class="node node-one">01</div><div class="node node-two">02</div>
+        <div class="art-caption"><span>01—03</span><br>ENGINEERING<br>× INTELLIGENCE</div>
+        <div class="art-coord">0°31' N<br>35°17' E</div>
+      </div>
+      <div class="hero-foot"><span>INDEPENDENT THINKING. PRACTICAL SYSTEMS.</span><a href="#path">SCROLL TO EXPLORE ↓</a></div>
+    </section>
+    <section class="section work-section" id="work">
+      <div class="section-head"><div><p class="eyebrow">01 / SELECTED DIRECTIONS</p><h2>Questions worth<br>working on.</h2></div><p class="section-note">A growing record at the intersection of engineering practice, agriculture, and computational methods.</p></div>
+      <div class="work-grid">
+        <article class="work-card work-featured"><div class="card-top"><span>RESEARCH DIRECTION</span><span>01</span></div><div class="card-graphic irrigation" aria-hidden="true"><div class="sun"></div><div class="field-line"></div><div class="field-line"></div><div class="field-line"></div><div class="water-mark">H₂O</div></div><h3>Machine learning for agriculture</h3><p>Exploring AI approaches to irrigation and water efficiency in dry regions.</p><span class="tag">AI · AGRICULTURE</span></article>
+        <article class="work-card"><div class="card-top"><span>DATA EXPLORATION</span><span>02</span></div><div class="card-graphic chart" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><i>YIELD / SIGNAL</i></div><h3>Crop yield visualization</h3><p>Interactive ways to explore patterns in agricultural data.</p><span class="tag">DATA · VISUALIZATION</span></article>
+        <article class="work-card work-quote"><span class="quote-mark">“</span><p>Engineering is where careful observation meets the courage to build.</p><span class="tag">WORKING PRINCIPLE</span></article>
       </div>
     </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="tab-content">
-      <h2>Skills</h2>
-      <div class="skill-category">
-        <h3>Industrial Knowledge</h3>
-        <ul>
-          <li>Machine Learning</li>
-          <li>Convolutional Neural Networks (CNN)</li>
-          <li>Natural Language Processing (NLP)</li>
-          <li>Data Analysis & Visualization</li>
-          <li>Project Management</li>
-        </ul>
-      </div>
-      <div class="skill-category">
-        <h3>Tools & Technologies</h3>
-        <ul>
-          <li>Python Programming</li>
-          <li>PyTorch</li>
-          <li>R & R Markdown</li>
-          <li>MATLAB</li>
-          <li>SOLIDWORKS, AutoCAD, ArchiCAD</li>
-        </ul>
+    <section class="timeline-section" id="path"><div class="section-head"><div><p class="eyebrow">02 / PROFESSIONAL PATH</p><h2>Practice, then<br>pass it forward.</h2></div><p class="section-note">A timeline built from the career records currently available. More milestones can be added as verified details become available.</p></div>
+      <div class="timeline">
+        <article class="timeline-item"><div class="time-date">FEB 2024 — NOW</div><div class="time-mark"></div><div class="time-content"><p class="eyebrow">TEACHING · AGRICULTURAL ENGINEERING</p><h3>Part-time Lecturer</h3><p class="org">University of Eldoret</p><p>Delivered lectures, supervised student projects, and mentored practical sessions in agricultural engineering.</p></div></article>
+        <article class="timeline-item"><div class="time-date">FEB 2022 — JAN 2025</div><div class="time-mark"></div><div class="time-content"><p class="eyebrow">ENGINEERING · PUBLIC SERVICE</p><h3>Clerk of Works</h3><p class="org">Kenya Ministry of Agriculture</p><p>Oversaw agricultural engineering projects and checked work against technical specifications and standards.</p></div></article>
       </div>
     </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="tab-content">
-      <h2>Projects</h2>
-      <div class="project-card">
-        <h3>Machine Learning Applications in Agriculture</h3>
-        <p>Optimized irrigation systems using AI to enhance water efficiency in dry regions.</p>
-        <a href="https://github.com/username/project1" target="_blank">View on GitHub</a>
-      </div>
-      <div class="project-card">
-        <h3>Data Visualization for Crop Yield Analysis</h3>
-        <p>Developed interactive dashboards to analyze agricultural data trends.</p>
-        <a href="https://github.com/username/project2" target="_blank">View on GitHub</a>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="tab-content">
-      <h2>Contact</h2>
-      <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Send</button>
-      </form>
-    </section>
+    <section class="about-section" id="about"><div class="about-index"><p class="eyebrow">03 / THE THROUGH LINE</p><span>ENGINEER<br>→ EDUCATOR<br>→ EXPLORER</span></div><div><h2>Curious about what happens when disciplines meet.</h2><p>My work brings together an agricultural engineering foundation and a growing focus on AI and data science. I’m interested in using computational tools to understand real systems, improve decisions, and share practical knowledge.</p><div class="tool-list"><span>PYTHON</span><span>PYTORCH</span><span>R</span><span>MATLAB</span><span>SOLIDWORKS</span><span>AUTOCAD</span><span>ARCHICAD</span></div></div></section>
+    <section class="contact-section" id="contact"><p class="eyebrow">04 / OPEN CONVERSATION</p><h2>Have a question<br>worth exploring?</h2><p>For research, teaching, or engineering conversations, reach out directly.</p><a class="button button-light" href="mailto:">Email Andrew <span>↗</span></a><small>Email address to be added</small></section>
   </main>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Mwamba A, O. All Rights Reserved.</p>
-  </footer>
+  <footer><a class="wordmark" href="#home">AM<span>.</span></a><span>ANDREW MWAMBA OBARE · ENGINEER & LECTURER</span><a href="#home">BACK TO TOP ↑</a></footer>
 </body>
 </html>
